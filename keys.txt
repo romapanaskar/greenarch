@@ -1,0 +1,2 @@
+api url : https://uzkwccttmqtjyfmhpehu.supabase.co
+anon public key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV6a3djY3R0bXF0anlmbWhwZWh1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI3MDQ3OTUsImV4cCI6MjA4ODI4MDc5NX0.aySOzqtaM7c_-dv-g9AFD7wNUXhyIc1_8ml-ZHKy6NY
