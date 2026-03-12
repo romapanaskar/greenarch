@@ -31,16 +31,14 @@ export default function Home() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/upload"
+              className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3.5 rounded-lg font-semibold text-lg transition shadow-lg shadow-emerald-500/25">
 
-              href="/upload"
-              className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3.5 rounded-lg font-semibold text-lg transition shadow-lg shadow-emerald-500/25"
-            <a>
               Analyze Your Architecture
             </a>
+            <a href="#how-it-works"
+              className="border border-gray-700 hover:border-gray-500 text-gray-300 px-8 py-3.5 rounded-lg font-semibold text-lg transition">
 
-              href="#how-it-works"
-              className="border border-gray-700 hover:border-gray-500 text-gray-300 px-8 py-3.5 rounded-lg font-semibold text-lg transition"
-            <a>
               See How It Works
             </a>
           </div>

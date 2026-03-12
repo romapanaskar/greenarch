@@ -68,8 +68,9 @@ export default function UploadPage() {
       setStatus('Upload successful! Your diagram is being analyzed.')
       setFile(null)
       setPreview(null)
-    } catch (error: any) {
-      setStatus(`Error: ${error.message}`)
+    } catch (error: unknown) {
+      const errorMessage = error instanceof Error ? error.message : 'Upload failed'
+      setStatus(`Error: ${errorMessage}`)
     } finally {
       setUploading(false)
     }
